@@ -115,6 +115,12 @@ public class Tugas_Modul4 {
                 System.out.println(cetak2("░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█"));
                 System.out.println(cetak2("░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█"));
                 System.out.println("");
+            } else {
+            
+                System.out.println("Mengeluarkan, terima kasih telah menggunakan layanan kami");
+                System.exit(0);
+                
+            
             }
         }
     }
