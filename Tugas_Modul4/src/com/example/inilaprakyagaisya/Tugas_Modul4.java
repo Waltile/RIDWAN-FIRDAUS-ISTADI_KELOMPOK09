@@ -21,6 +21,7 @@ public class Tugas_Modul4 {
     }
 
     static String cetak2(String text){
+
         return text;
     }
 
@@ -33,21 +34,6 @@ public class Tugas_Modul4 {
         Scanner sc = new Scanner(System.in);
         feature object = new feature();
 
-        System.out.println(cetak2("░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄"));
-        System.out.println(cetak2("░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄"));
-        System.out.println(cetak2("░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█"));
-        System.out.println(cetak2("░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█"));
-        System.out.println(cetak2("░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█"));
-        System.out.println(cetak2("█▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█"));
-        System.out.println(cetak2("█▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█"));
-        System.out.println(cetak2("░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█"));
-        System.out.println(cetak2("░░░█░░██░░▀█▄▄▄█▄▄█▄████░█"));
-        System.out.println(cetak2("░░░░█░░░▀▀▄░█░░░█░███████░█"));
-        System.out.println(cetak2("░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█"));
-        System.out.println(cetak2("░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█"));
-        System.out.println(cetak2("░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█"));
-        System.out.println(cetak2("░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█"));
-        System.out.println("");
         cetak1();
 
         object.identitasUser();
@@ -113,6 +99,22 @@ public class Tugas_Modul4 {
                 System.out.println("Deposit setelah " + tahun + " tahun adalah: IDR " + object.kalkulasikeuntunganDeposit(deposit, tahun));
 
                 return;
+            } else if (input == 360420) {
+                System.out.println(cetak2("░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄"));
+                System.out.println(cetak2("░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄"));
+                System.out.println(cetak2("░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█"));
+                System.out.println(cetak2("░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█"));
+                System.out.println(cetak2("░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█"));
+                System.out.println(cetak2("█▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█"));
+                System.out.println(cetak2("█▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█"));
+                System.out.println(cetak2("░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█"));
+                System.out.println(cetak2("░░░█░░██░░▀█▄▄▄█▄▄█▄████░█"));
+                System.out.println(cetak2("░░░░█░░░▀▀▄░█░░░█░███████░█"));
+                System.out.println(cetak2("░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█"));
+                System.out.println(cetak2("░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█"));
+                System.out.println(cetak2("░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█"));
+                System.out.println(cetak2("░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█"));
+                System.out.println("");
             }
         }
     }
