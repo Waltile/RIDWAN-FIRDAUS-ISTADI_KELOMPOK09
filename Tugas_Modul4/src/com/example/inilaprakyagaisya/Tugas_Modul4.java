@@ -38,14 +38,14 @@ public class Tugas_Modul4 {
 
         object.identitasUser();
 
-        object.judul();
-
-        object.awalan();
-        System.out.print("Masukkan angka untuk melanjutkan: ");
+       
 
         while (true) {
 
+            object.judul();
 
+            object.awalan();
+            System.out.print("Masukkan angka untuk melanjutkan: ");
             input = sc.nextInt();
 
             if (input == 1) {
